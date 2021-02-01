@@ -18,12 +18,12 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
  name: springboot-app
-namespace: default
+ namespace: default
 spec:
-selector:
+ selector:
   matchLabels:
     app: springboot-app
-replicas: 1
+ replicas: 1
 template:
   metadata:
     labels:
