@@ -24,7 +24,7 @@ spec:
   matchLabels:
     app: springboot-app
  replicas: 1
-template:
+ template:
   metadata:
     labels:
       app: springboot-app
